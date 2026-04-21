@@ -6,7 +6,8 @@ import platform
 def verificar_entorno(): 
     print("=" * 40) 
     print(" MLOps Curso — Verificación del entorno") 
-    print("=" * 40) print(f"Python: {sys.version.split()[0]}") 
+    print("=" * 40) 
+    print(f"Python: {sys.version.split()[0]}") 
     print(f"Sistema: {platform.system()} {platform.release()}") 
     print() 
     
@@ -23,5 +24,3 @@ def verificar_entorno():
        
 if __name__ == "__main__": 
     verificar_entorno()
-
-
