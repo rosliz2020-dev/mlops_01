@@ -21,7 +21,7 @@ def verificar_entorno():
     print() 
     print("Entorno listo para MLOps.") 
        
- if __name__ == "__main__": 
+if __name__ == "__main__": 
     verificar_entorno()
 
 
